@@ -4,7 +4,7 @@ const util = require('util')
 const chalk = require('chalk')
 const { Configuration, OpenAIApi } = require("openai")
 let setting = require('./accesser.json')
-const BOT_NAME = process.env.BOT_NAME ?? "noureddine ouafy";
+const BOT_NAME = process.env.BOT_NAME ?? "lo9mane.lmalaki";
 
 module.exports = sansekai = async (client, m, chatUpdate, store) => {
   try {
@@ -73,9 +73,9 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
           let prompt_template =
             "I am artificial intelligence " +
             BOT_NAME +
-            " follow me here : instagram.com/noureddine_ouafy.\n\nHuman: Hi. How are you?\n" +
+            " follow me here : instagram.com/lo9mane.lmalaki.\n\nHuman: Hi. How are you?\n" +
             BOT_NAME +
-            ": I'm well. How can I help you? follow me instagram.com/noureddine_ouafy\nHuman: " +
+            ": I'm well. How can I help you? wa.me/212661809542\nHuman: " +
             budy +
             "\n" +
             BOT_NAME +
